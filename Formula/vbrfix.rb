@@ -14,6 +14,6 @@ class Vbrfix < Formula
   end
 
   test do
-    assert_match "Usage", shell_output("#{bin}/vbrfix", 255)
+    assert_match "Usage", shell_output(bin/"vbrfix", 255)
   end
 end
